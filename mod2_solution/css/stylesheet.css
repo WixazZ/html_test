@@ -1,12 +1,37 @@
 /********** Base styles **********/
 h1 {
-    margin-bottom: 15px;
+    text-align: center;
 }
 
-p {
+h2{
+    margin: 0;
+}
+
+div {
     border: 1px solid black;
     margin-bottom: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
+
+.containers {
+
+}
+
+.title {
+    margin-bottom: 0;
+    margin-right: 0;
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+#title1 {
+    border-bottom: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+/**********
 #p1 {
     background-color: #A52A2A;
     width: 300px;
@@ -18,7 +43,7 @@ p {
     height: 50px;
 }
 
-/********** Large devices only **********/
+ Large devices only
 @media (min-width: 1200px) {
     #p1 {
         width: 80%;
@@ -30,7 +55,6 @@ p {
 }
 
 
-/********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
     #p1 {
         width: 50%;
@@ -43,3 +67,4 @@ p {
         background-color: blue;
     }
 }
+**********/
