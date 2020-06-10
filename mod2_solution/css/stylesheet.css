@@ -5,6 +5,8 @@ h1 {
 
 h2{
     margin: 0;
+    vertical-align: central;
+    text-align: center;
 }
 
 div {
@@ -14,21 +16,15 @@ div {
     margin-right: 50px;
 }
 
-.containers {
-
-}
 
 .title {
-    margin-bottom: 0;
     margin-right: 0;
+    border-top: 0;
+    border-right: 0;
     float: right;
     width: 200px;
     height: 100px;
-}
-#title1 {
-    border-bottom: 0;
-    padding: 0;
-    margin-bottom: 0;
+
 }
 
 /**********
